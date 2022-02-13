@@ -1,2 +1,33 @@
 # BashCommandSorter
-Spring service, which sorts bash commands and resolves dependencies between them
+Spring service, which sorts bash commands and resolves dependencies between them.
+
+To run the service, start the application as a regular spring-boot service.
+  mvn spring-boot:run
+
+Default port for the service is 4000, but that can be changed from the application.yaml file.
+
+Happy BASHing :-)
+
+                    __________
+                    ________|          |________
+                    |       /   ||||||   \       |
+                    |     ,'              `.     |
+                    |   ,'                  `.   |
+                    | ,'   ||||||||||||||||   `. |
+                    ,'  /____________________\  `.
+                    /______________________________\
+                    |                                |
+                    |                                |
+                    |                                |
+                    |________________________________|
+                      |____________________------__|
+
+        ,----------------------------------------------------,
+        | [][][][][]  [][][][][]  [][][][]  [][__]  [][][][] |
+        |                                                    |
+        |  [][][][][][][][][][][][][][_]    [][][]  [][][][] |
+        |  [_][][][][][][][][][][][][][ |   [][][]  [][][][] |
+        | [][_][][][][][][][][][][][][]||     []    [][][][] |
+        | [__][][][][][][][][][][][][__]    [][][]  [][][]|| |
+        |   [__][________________][__]              [__][]|| |
+        `----------------------------------------------------'
